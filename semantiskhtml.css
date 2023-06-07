@@ -1,0 +1,139 @@
+*{
+    /* outline: 1px dotted black; */
+    font-family: sans-serif;
+    margin: 0;
+    padding:0;
+    line-height: 140%;
+    
+}
+
+body{min-height: 100vh; }
+
+header{
+    padding: 20px;
+}
+
+.logoicon{
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    
+}
+.navbar{
+    display: flex;
+    outline: 1px solid red;
+    justify-content: space-between; 
+    align-items: center;
+    margin: auto;
+    max-width: 90vw;
+                   
+}
+.navgroup{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+       
+}
+
+.navbtn{
+    padding: 6px 15px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.maincontent{
+display: flex;
+gap: 10px;
+
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    outline: 1px solid red;
+    padding: 20px;
+    
+}
+article{
+padding: 20px;
+outline: 1px solid red;
+margin: 10px 0px;
+
+}
+
+aside{
+    display: flex;
+    align-self: stretch;
+    justify-content: flex-end;
+    /* margin: -10px -10px -10px 0px; */
+    /* width: 80%; */
+    /* padding: 10px; */
+    f
+    
+}
+
+.sidecontent{
+    padding: 10px;
+    outline: 1px solid red;
+    
+}
+.sidetitle{
+    padding-top: 10px;
+    text-align: center;}
+
+.sidelinks{
+    padding: 20px 20px;
+    list-style-type: none;
+
+}
+.sidearticle{
+ margin-bottom: 1rem;
+    outline: 1px solid red;
+    padding: 10px;
+    
+}
+.quotes{
+    margin-top: 10px;
+    padding: 4rem;
+    text-align: center;
+    outline: 1px solid red;
+}
+
+main, footer{
+    margin: 10px auto;
+    max-width: 90vw;
+    /* outline: 1px solid red; */
+    
+}
+
+.footerflex{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    outline: 1px solid red;
+
+}
+.footertitle{
+    text-align: center;
+}
+.bottombar{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+    .flex{
+display: flex;
+justify-content: center;
+}
+
+.footerlinks, .footerinfo{
+    list-style-type: none;
+    line-height: 180%;
+    outline: 1px solid red;
+    padding: 20px;
+    margin: 2px;
+}
